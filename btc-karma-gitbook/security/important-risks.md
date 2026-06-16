@@ -1,4 +1,7 @@
-# important risks
+---
+title: "Important Risks"
+sidebar_position: 3
+---
 
 BTC Karma involves crypto assets, wallet interactions, token rewards, and future DeFi opportunities. Users should understand the risks before participating.
 

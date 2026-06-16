@@ -1,4 +1,7 @@
-# how bitcoin staking works
+---
+title: "How Bitcoin Staking Works"
+sidebar_position: 3
+---
 
 BTC Karma is designed to let users participate in Bitcoin staking without using traditional bridge infrastructure.
 

@@ -1,0 +1,71 @@
+name: Deploy docs to S3
+
+# Auto-deploy: rebuild the BTC Karma docs (Docusaurus) and publish to S3 on every
+# push to main that touches the docs content or the site build.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'btc-karma-gitbook/**'
+      - 'website/**'
+      - '.github/workflows/deploy-docs.yml'
+  workflow_dispatch: {}
+
+concurrency:
+  group: deploy-docs
+  cancel-in-progress: true
+
+permissions:
+  id-token: write   # for AWS OIDC role assumption
+  contents: read
+
+env:
+  DOCS_BUCKET: docs.btckarma.io
+  CLOUDFRONT_DISTRIBUTION_ID: E3NAJ3WY42WCSC
+  AWS_REGION: us-east-1
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: website/package-lock.json
+
+      - name: Install dependencies
+        working-directory: website
+        run: npm ci
+
+      - name: Build site (Docusaurus)
+        working-directory: website
+        run: npm run build
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Sync hashed assets (long cache, immutable)
+        run: |
+          aws s3 sync website/build "s3://${DOCS_BUCKET}" \
+            --delete --exclude "*.html" \
+            --cache-control "public,max-age=31536000,immutable"
+
+      - name: Sync HTML (short cache)
+        run: |
+          aws s3 sync website/build "s3://${DOCS_BUCKET}" \
+            --delete \
+            --cache-control "public,max-age=300"
+
+      - name: Invalidate CloudFront
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "${CLOUDFRONT_DISTRIBUTION_ID}" \
+            --paths "/*"

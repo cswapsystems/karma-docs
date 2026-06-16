@@ -1,4 +1,7 @@
-# what is btc karma
+---
+title: "What is BTC Karma?"
+sidebar_position: 1
+---
 
 BTC Karma is a Bitcoin staking and rewards platform designed to allow Bitcoin capital to be leveraged within Cardano-powered DeFi without forcing Bitcoin holders to bridge BTC or become Cardano-native users.
 

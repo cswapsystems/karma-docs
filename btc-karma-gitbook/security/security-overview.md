@@ -1,4 +1,7 @@
-# security overview
+---
+title: "Security Overview"
+sidebar_position: 1
+---
 
 BTC Karma is designed to create a safer and cleaner Bitcoin staking experience by using wallet verification, account-level reward tracking, and cryptographic authorization.
 

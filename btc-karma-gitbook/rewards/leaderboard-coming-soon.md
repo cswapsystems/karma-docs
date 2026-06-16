@@ -1,4 +1,7 @@
-# leaderboard (coming soon)
+---
+title: "Leaderboard"
+sidebar_position: 4
+---
 
 The BTC Karma leaderboard is designed to show user progression across the ecosystem.
 

@@ -1,4 +1,7 @@
-# what is $KARMA
+---
+title: "What is KARMA?"
+sidebar_position: 1
+---
 
 KARMA is the native rewards and alignment token of BTC Karma.
 

@@ -1,4 +1,7 @@
-# cswap ecosystem
+---
+title: "CSWAP Ecosystem"
+sidebar_position: 2
+---
 
 BTC Karma is part of the broader CSWAP ecosystem.\
 \

@@ -1,0 +1,66 @@
+/**
+ * BTC Karma documentation theme.
+ * Dark-first, gold accent — matched to the production btckarma.io docs palette.
+ */
+
+:root {
+  --ifm-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Gold primary (light mode falls back to a deeper gold for contrast) */
+  --ifm-color-primary: #b8920a;
+  --ifm-color-primary-dark: #a68309;
+  --ifm-color-primary-darker: #9c7b08;
+  --ifm-color-primary-darkest: #806507;
+  --ifm-color-primary-light: #caa00b;
+  --ifm-color-primary-lighter: #d4a80c;
+  --ifm-color-primary-lightest: #e6b81a;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme — the default and primary look */
+[data-theme='dark'] {
+  --karma-bg: #050505;
+  --karma-surface: #0b0b0b;
+
+  --ifm-color-primary: #f0cd35;
+  --ifm-color-primary-dark: #dcb814;
+  --ifm-color-primary-darker: #c9a70f;
+  --ifm-color-primary-darkest: #987d08;
+  --ifm-color-primary-light: #f7dc5b;
+  --ifm-color-primary-lighter: #ffe779;
+  --ifm-color-primary-lightest: #fff1a7;
+
+  --ifm-background-color: var(--karma-bg);
+  --ifm-background-surface-color: var(--karma-surface);
+  --ifm-navbar-background-color: var(--karma-surface);
+  --ifm-footer-background-color: var(--karma-bg);
+  --ifm-color-content: #e3e3e3;
+  --ifm-color-content-secondary: #a7a7a7;
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-menu-color-background-active: rgba(240, 205, 53, 0.12);
+  --ifm-menu-color-background-hover: rgba(240, 205, 53, 0.08);
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
+}
+
+/* Brand wordmark */
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+[data-theme='dark'] .navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Active sidebar item gets the gold treatment */
+[data-theme='dark'] .menu__link--active:not(.menu__link--sublist) {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+.markdown h1:first-child {
+  font-weight: 800;
+}

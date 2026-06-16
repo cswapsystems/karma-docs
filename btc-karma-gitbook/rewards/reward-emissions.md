@@ -1,4 +1,7 @@
-# reward emissions
+---
+title: "Reward Emissions"
+sidebar_position: 2
+---
 
 BTC Karma rewards are designed to bootstrap Bitcoin staking activity while encouraging long-term alignment with the ecosystem.
 
