@@ -1,4 +1,7 @@
-# enlightenment levels
+---
+title: "Enlightenment Levels"
+sidebar_position: 3
+---
 
 Enlightenment Levels are BTC Karma's progression system.
 

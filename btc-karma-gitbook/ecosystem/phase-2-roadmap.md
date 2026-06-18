@@ -1,4 +1,7 @@
-# phase 2 roadmap
+---
+title: "Phase 2 Roadmap"
+sidebar_position: 1
+---
 
 BTC Karma begins with Bitcoin staking and KARMA rewards, but the long-term vision is much larger.
 

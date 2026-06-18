@@ -1,4 +1,7 @@
-# wallet verification
+---
+title: "Wallet Verification"
+sidebar_position: 2
+---
 
 BTC Karma uses wallet verification to connect Bitcoin staking activity with a verified reward identity.
 

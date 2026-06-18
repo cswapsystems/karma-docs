@@ -1,0 +1,6 @@
+<svg width="169" height="169" viewBox="0 0 169 169" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BTC Karma yin yang logo">
+  <circle cx="84.5" cy="84.5" r="84.5" fill="#fff"/>
+  <path d="M84.5 12C44.46 12 12 44.46 12 84.5S44.46 157 84.5 157c-20.02 0-36.25-16.23-36.25-36.25S64.48 84.5 84.5 84.5c20.02 0 36.25-16.23 36.25-36.25S104.52 12 84.5 12Z" fill="#050505"/>
+  <circle cx="84.5" cy="48.25" r="12.2" fill="#fff"/>
+  <circle cx="84.5" cy="120.75" r="12.2" fill="#050505"/>
+</svg>

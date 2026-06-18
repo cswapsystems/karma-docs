@@ -1,4 +1,7 @@
-# quick start
+---
+title: "Quick Start"
+sidebar_position: 2
+---
 
 This guide explains the basic BTC Karma user flow.
 
