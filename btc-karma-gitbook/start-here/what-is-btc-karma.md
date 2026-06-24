@@ -3,56 +3,74 @@ title: "What is BTC Karma?"
 sidebar_position: 1
 ---
 
-BTC Karma is a Bitcoin staking and rewards platform designed to allow Bitcoin capital to be leveraged within Cardano-powered DeFi without forcing Bitcoin holders to bridge BTC or become Cardano-native users.
+BTC Karma is Bitcoin-native reward infrastructure for staking BTC, earning KARMA, and preparing for future Bitcoin yield opportunities.
 
-The platform begins with a simple experience:
+BTC Karma is built for Bitcoin holders who want rewards, levels, and future access without bridging BTC.
 
-**Stake Bitcoin. Earn KARMA. Level Up.**
+Target users include:
 
-Users stake Bitcoin through BTC Karma, earn KARMA rewards over time, and progress through Enlightenment Levels based on long-term participation and ecosystem alignment.
+* Long-term Bitcoin holders
+* Bitcoin miners
+* Custodians
+* Centralized exchanges
+* Family offices
+* Treasury allocators
+* High-net-worth BTC holders
+
+Users can stake BTC, earn KARMA when rewards are available, and raise their Enlightenment Level over time. Users can also buy KARMA directly through the BTC Karma staking platform as an optional way to raise their level faster.
+
+Higher levels are designed to improve reward potential during Phase 1 and may improve access to future Bitcoin yield opportunities.
 
 ## Why BTC Karma Exists
 
-Bitcoin is the largest digital asset in crypto, but most BTC remains economically dormant.
+Bitcoin is the largest digital asset in crypto, but many BTC holders avoid DeFi because they do not want to bridge assets, introduce unnecessary custody assumptions, or manage unfamiliar multi-chain workflows.
 
-Many Bitcoin holders do not trust traditional DeFi. Many do not want to bridge assets. Many do not want to learn multiple wallets, chains, protocols, and unfamiliar yield strategies just to put their Bitcoin to work.
+BTC Karma exists to reward Bitcoin holders with KARMA and prepare them for future Bitcoin yield opportunities through a Bitcoin-native interface.
 
-BTC Karma was created to solve that problem.
+The long-term goal is to expand Bitcoin utility through rewards, Enlightenment Levels, and future Bitcoin yield access without requiring users to bridge BTC.
 
-The long-term goal is to create a Bitcoin-native gateway into Cardano-powered DeFi, stablecoin liquidity, RWA yield opportunities, and composable financial products.
-
-BTC Karma uses Cardano infrastructure underneath, but the user experience is designed to become simple, accessible, and Bitcoin-first.
+BTC Karma uses Cardano infrastructure for reward accounting, token distribution, and future yield access, but the user experience is designed to remain simple, accessible, and Bitcoin-first.
 
 ## How BTC Karma Works
 
-BTC Karma starts with Bitcoin staking.
+BTC Karma starts with a simple Bitcoin-holder journey:
 
-1. A user connects their Bitcoin wallet.
-2. The user verifies their staking position.
-3. The user connects or verifies a reward destination.
-4. BTC Karma tracks the user's staking activity.
-5. The user earns KARMA rewards over time.
-6. The user progresses through Enlightenment Levels.
-7. Higher levels may unlock stronger reward potential and future access to exclusive yield opportunities.
+1. Stake BTC.
+2. Earn KARMA rewards.
+3. Raise your Enlightenment Level.
+4. Unlock stronger reward potential.
+5. Prepare for future Phase 2 yield opportunities.
+
+The amount of KARMA a user earns may depend on Bitcoin staking activity, Enlightenment Level, and the protocol's active emissions rules.
+
+Users who want to raise their level faster can visit the Rewards page and click **Raise Level of Enlightenment** to see how much KARMA is needed for each higher tier.
 
 ## Phase 1: Bitcoin Staking and Enlightenment
 
-Phase 1 focuses on Bitcoin staking, KARMA emissions, Enlightenment Levels, and leaderboard growth.
+Phase 1 is designed to reward Bitcoin holders with KARMA while introducing the Enlightenment Level system.
 
-Users can participate by creating or verifying Bitcoin staking positions and earning KARMA rewards during active reward periods.
+Users earn KARMA based on their Bitcoin staking activity, active emissions, and Enlightenment Level. Users can also acquire KARMA directly through the platform to raise their level faster.
 
-## Phase 2: Bitcoin-Native DeFi Access
+As users earn, buy, and hold KARMA, they may progress into higher Enlightenment Levels.
 
-Phase 2 is designed to expand BTC Karma beyond simple staking.
+Higher levels are designed to increase reward potential during Phase 1 and may improve access to future BTC Karma opportunities.
 
-The goal is to allow Bitcoin holders to use BTC Karma as a gateway into Cardano-powered DeFi opportunities, including stablecoin liquidity and real-world asset yield products.
+The goal is simple: reward Bitcoin holders today while preparing them for future Bitcoin yield opportunities.
 
-In the long term, BTC Karma aims to make the Cardano layer feel invisible to Bitcoin holders. Users should be able to access opportunities through a simple Bitcoin-native experience without needing to understand every part of the underlying infrastructure.
+## Phase 2: Bitcoin-Native Yield Access
 
-## BTC Karma and CSWAP
+Phase 2 is designed to expand BTC Karma beyond token rewards and into Bitcoin-powered yield access.
 
-BTC Karma is part of the broader CSWAP ecosystem.
+Future opportunities may include Bitcoin-backed borrowing, stablecoin deployment, curated yield strategies, and RWA yield opportunities.
 
-The goal is to allow Bitcoin holders and Bitcoin capital into the ecosystem in a way that feels natural.
+Some of these opportunities may have limited capacity. If demand exceeds available allocation, higher Enlightenment Levels may receive priority access.
 
-Over time, BTC Karma will create a new liquidity flywheel for CSWAP, Cardano stablecoins, RWA opportunities, and Cardano DeFi as a whole.
+In the long term, BTC Karma aims to keep Bitcoin at the center of the experience. Users should be able to access future opportunities through a simple Bitcoin-native interface.
+
+## Infrastructure
+
+BTC Karma uses Cardano infrastructure for reward accounting, token distribution, and future yield access.
+
+BTC Karma is centered on staking BTC, earning KARMA, raising Enlightenment Level, and preparing for future Bitcoin opportunities.
+
+BTC Karma is not DeFi for short-term speculation. It is Bitcoin-native reward infrastructure for rewards, levels, and future Bitcoin yield access.

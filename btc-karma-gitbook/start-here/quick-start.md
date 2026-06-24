@@ -15,9 +15,9 @@ Always make sure you are using the correct website before connecting any wallet.
 
 ## Step 2: Connect Your Bitcoin Wallet
 
-Connect the Bitcoin wallet that contains the BTC you want to stake.
+Connect the Bitcoin wallet associated with the BTC you want to use for staking participation.
 
-BTC Karma uses Bitcoin wallet verification to confirm ownership and authorize staking actions.
+BTC Karma uses Bitcoin wallet verification to confirm ownership and authorize staking actions without asking for seed phrases or private keys.
 
 ## Step 3: Verify Your Reward Destination
 
@@ -25,33 +25,41 @@ BTC Karma rewards are connected to a verified reward destination.
 
 During setup, you may be asked to verify a Cardano wallet or reward address. This allows BTC Karma to associate your Bitcoin staking activity with your reward account.
 
-## Step 4: Create a Staking Position
+## Step 4: Create a BTC Staking Position
 
-After your wallets are connected and verified, follow the staking flow to create your BTC staking position.
+After your wallets are connected, follow the staking flow to create your BTC staking position.
 
 The platform will guide you through the required steps.
 
 ## Step 5: Track Your Position
 
-Once your position is active, you can track:
+Once your staking account is active, you can track:
 
-* Your staked BTC position
+* Your BTC staking position
 * Your estimated KARMA rewards
 * Your Enlightenment Level
 * Your leaderboard status (coming soon)
 * Your reward history
 
-## Step 6: Claim Rewards
+Your KARMA rewards may depend on your Bitcoin staking activity, your Enlightenment Level, and the protocol's active emissions rules.
+
+## Step 6: Review Your Rewards Page
+
+Your Rewards page shows your current KARMA rewards, current Enlightenment Level, and the amount of KARMA needed to reach higher levels.
+
+Use **Raise Level of Enlightenment** to view your path to the next tier. Buying KARMA through the BTC Karma staking platform is optional, but it can help users raise their Enlightenment Level faster.
+
+## Step 7: Claim Rewards
 
 When rewards are available, you will be able to claim KARMA through the BTC Karma app.
 
 Reward timing, claim availability, and emissions may vary based on the active reward period.
 
-## Step 7: Level Up
+## Step 8: Track Enlightenment Level
 
 As you participate in BTC Karma over time, your account may progress through Enlightenment Levels.
 
-Higher levels can improve your position within the ecosystem and may unlock future benefits.
+Higher levels may improve KARMA reward potential during Phase 1 and may improve access to future limited-capacity Bitcoin yield opportunities.
 
 ## Safety Checklist
 

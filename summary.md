@@ -23,6 +23,6 @@
 
 ## Ecosystem
 
-* [Phase 2 Roadmap](/broken/pages/3e8f22828ab10386a205e3b5ad2faee25cfd8fba)
+* [Roadmap](/broken/pages/3e8f22828ab10386a205e3b5ad2faee25cfd8fba)
 * [CSWAP Ecosystem](/broken/pages/94cb1f492fff749b42bced6a853fe58750aff83a)
 * [FAQ](/broken/pages/f152bd9e8761bd44365e672b5c90c20145c45417)

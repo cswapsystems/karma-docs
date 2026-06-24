@@ -1,47 +1,43 @@
 ---
-title: "CSWAP Ecosystem"
+title: "Infrastructure"
 sidebar_position: 2
 ---
 
-BTC Karma is part of the broader CSWAP ecosystem.\
-\
-CSWAP is a multi-product, multi-chain DeFi ecosystem built on secure and permissionless Cardano infrastructure.
+BTC Karma is built for Bitcoin holders.
 
-## Why BTC Karma Uses Its Own Token
+Users stake BTC, earn KARMA, raise their Enlightenment Level, and prepare for future Bitcoin yield opportunities without bridging BTC.
 
-BTC Karma is a Bitcoin-focused protocol.
+BTC Karma uses Cardano infrastructure for reward accounting, token distribution, verified reward destinations, and future yield access.
 
-KARMA gives BTC Karma its own incentive model, gamification system, emissions curve, leaderboard, and access mechanism.
+## Why BTC Karma Uses KARMA
 
-This allows BTC Karma to speak directly to Bitcoin holders while still supporting the broader CSWAP ecosystem.
+BTC Karma is designed around Bitcoin-holder participation.
 
-## CSWAP Holder Alignment
+KARMA powers BTC Karma rewards, Enlightenment Levels, leaderboard status, and future access.
 
-15% of the $KARMA supply is planned to go directly to $CSWAP stakers and farmers.
+Users can earn and hold KARMA to increase their Enlightenment Level. Higher levels may improve reward potential, harvest capacity, and access to future Bitcoin yield opportunities.
 
-This gives $CSWAP holders a direct stake in the success of BTC Karma.
+## Cardano as Infrastructure
 
-## Future Revenue Alignment
+BTC Karma uses Cardano infrastructure for:
 
-BTC Karma is designed to become a new gateway for Bitcoin capital entering Cardano-powered DeFi.
+* Reward accounting
+* KARMA token distribution
+* Verified reward destinations
+* Future yield access
 
-In Phase 2, Bitcoin holders may be able to collateralize Bitcoin, borrow stablecoins on Cardano, and deploy those stablecoins into DeFi or RWA opportunities.
+Users do not need to become Cardano-native to use BTC Karma. The experience stays focused on staking BTC, earning KARMA, raising levels, and preparing for future access.
 
-The long-term vision is for $CSWAP holders to benefit from ecosystem activity created through BTC Karma.
+## Future Bitcoin Yield Access
 
-## Liquidity Flywheel
+Phase 2 is designed to expand BTC Karma beyond KARMA rewards and toward Bitcoin yield access.
 
-BTC Karma may support a larger flywheel across:
+Future opportunities may include Bitcoin-backed borrowing, stablecoin deployment, curated yield strategies, and RWA opportunities.
 
-* CSWAP DEX
-* CSWAP Market
-* Cardano stablecoins
-* RWA liquidity
-* Bitcoin-backed DeFi activity
-* Future ecosystem revenue opportunities
+Some future opportunities may have limited capacity. If demand exceeds available allocation, higher Enlightenment Levels may receive priority access.
 
 ## Long-Term Goal
 
-BTC Karma is designed to bring new users, new capital, and new demand into the CSWAP ecosystem via Bitcoin.
+BTC Karma exists to make Bitcoin staking rewards and future Bitcoin yield access easier to use.
 
-The initial launch may be bootstrapped through the Cardano community, but the long-term target audience is Bitcoin holders.
+The long-term target audience includes Bitcoin holders, miners, custodians, exchanges, family offices, treasury allocators, and high-net-worth BTC holders.

@@ -1,71 +1,118 @@
 /**
  * BTC Karma documentation theme.
  *
- * Reconstructed to match the original Vercel Docusaurus deployment exactly —
- * extracted from that build's compiled stylesheet (the --karma-* custom
- * properties and every custom rule). The original forces the dark palette in
- * BOTH light and dark color modes, so the site always reads as dark.
+ * A softer Bitcoin-first documentation palette that tracks the main
+ * btckarma.io feel without making the docs look like a marketing page.
  */
 
 :root {
-  /* Gold primary applies in both modes (original sets it on :root only) */
-  --ifm-color-primary: #f0cd35;
-  --ifm-color-primary-dark: #dcb814;
-  --ifm-color-primary-darker: #c9a70f;
-  --ifm-color-primary-darkest: #987d08;
-  --ifm-color-primary-light: #f7dc5b;
-  --ifm-color-primary-lighter: #ffe779;
-  --ifm-color-primary-lightest: #fff1a7;
+  --ifm-color-primary: #d8b95a;
+  --ifm-color-primary-dark: #c7a642;
+  --ifm-color-primary-darker: #b99636;
+  --ifm-color-primary-darkest: #8e7429;
+  --ifm-color-primary-light: #e2c877;
+  --ifm-color-primary-lighter: #ead692;
+  --ifm-color-primary-lightest: #f4e6bb;
 
-  --ifm-background-color: #050505;
+  --ifm-background-color: #0e0d0a;
   --ifm-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system,
     BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --ifm-heading-font-weight: 800;
+  --ifm-heading-font-weight: 680;
+  --ifm-font-weight-semibold: 620;
+  --ifm-line-height-base: 1.68;
+  --ifm-heading-line-height: 1.16;
   --ifm-navbar-height: 3.75rem;
-  --ifm-global-radius: 10px;
-  --ifm-border-radius: 10px;
+  --ifm-global-radius: 8px;
+  --ifm-border-radius: 8px;
   --ifm-code-border-radius: 4px;
+  --ifm-container-width-xl: 1180px;
 
   --docusaurus-progress-bar-color: var(--ifm-color-primary);
 
   /* BTC Karma palette tokens */
-  --karma-bg: #050505;
-  --karma-panel: #121212;
-  --karma-panel-2: #171717;
-  --karma-border: #2d2d2d;
-  --karma-border-gold: #f0cd3575;
-  --karma-text: #f4f4f4;
-  --karma-muted: #a7a7a7;
-  --karma-gold: #f0cd35;
+  --karma-bg: #0e0d0a;
+  --karma-bg-soft: #15130f;
+  --karma-panel: #171511;
+  --karma-panel-2: #1d1a14;
+  --karma-border: #302b21;
+  --karma-border-soft: #242017;
+  --karma-border-gold: #d8b95a55;
+  --karma-text: #eee9dc;
+  --karma-muted: #aaa392;
+  --karma-muted-2: #7f786a;
+  --karma-gold: #d8b95a;
+  --karma-gold-soft: #ead692;
 }
 
-/* Force the BTC Karma dark palette in BOTH color modes (matches original) */
+/* Keep both color modes visually aligned with the BTC Karma product site. */
 [data-theme='dark'],
 [data-theme='light'] {
   --ifm-background-color: var(--karma-bg);
   --ifm-background-surface-color: var(--karma-panel);
   --ifm-font-color-base: var(--karma-text);
-  --ifm-heading-color: #fff;
-  --ifm-navbar-background-color: #0b0b0b;
+  --ifm-heading-color: #faf5e8;
+  --ifm-navbar-background-color: color-mix(in srgb, var(--karma-bg) 92%, #211d14);
   --ifm-footer-background-color: var(--karma-bg);
+  --ifm-link-color: var(--karma-gold);
+  --ifm-link-hover-color: var(--karma-gold-soft);
+  --ifm-menu-color: #cfc6b3;
+  --ifm-menu-color-active: #f4e8bf;
+  --ifm-menu-color-background-active: #d8b95a14;
+  --ifm-menu-color-background-hover: #ffffff08;
+  --ifm-toc-border-color: var(--karma-border-soft);
+  --ifm-table-border-color: var(--karma-border);
+  --ifm-code-background: #211d16;
+  --ifm-code-color: #f0d98e;
+  --ifm-hr-border-color: var(--karma-border-soft);
 }
 
 [data-theme='dark'] {
-  --ifm-menu-color: #cfcfcf;
-  --ifm-menu-color-active: #fff;
-  --ifm-menu-color-background-active: #f0cd351f;
-  --ifm-toc-border-color: var(--karma-border);
-  --ifm-table-border-color: var(--karma-border);
+  --ifm-color-emphasis-100: #171511;
+  --ifm-color-emphasis-200: #242017;
+  --ifm-color-emphasis-300: #302b21;
+  --ifm-color-emphasis-600: #8e8677;
+  --ifm-color-emphasis-700: #aaa392;
+  --ifm-color-emphasis-800: #d4cbb8;
+  --ifm-color-emphasis-900: #eee9dc;
+}
+
+html {
+  background: var(--karma-bg);
+}
+
+body {
+  background:
+    radial-gradient(circle at 18% -10%, #33280d55, transparent 34rem),
+    linear-gradient(180deg, #12100c 0%, var(--karma-bg) 22rem);
 }
 
 .navbar {
-  background: #050505;
-  border-bottom: 1px solid var(--karma-border);
+  background: #0e0d0ae6;
+  border-bottom: 1px solid var(--karma-border-soft);
+  backdrop-filter: blur(14px);
+  box-shadow: none;
+}
+
+.navbar__logo {
+  height: 2rem;
+  margin-right: 0.65rem;
+}
+
+.navbar__item,
+.navbar__link {
+  color: #d4cbb8;
+  font-size: 0.92rem;
+  font-weight: 560;
+}
+
+.navbar__link--active {
+  font-weight: 620;
 }
 
 .footer {
-  background: #050505;
-  border-top: 1px solid var(--karma-border);
+  background: #0a0907;
+  border-top: 1px solid var(--karma-border-soft);
+  color: var(--karma-muted);
 }
 
 .footer__link-item:hover,
@@ -75,18 +122,169 @@
   color: var(--karma-gold);
 }
 
+.main-wrapper {
+  background: transparent;
+}
+
+.theme-doc-markdown {
+  color: #ddd5c4;
+}
+
+.theme-doc-markdown h1 {
+  font-size: clamp(2.15rem, 3vw, 3.15rem);
+  letter-spacing: 0;
+  margin-bottom: 1.15rem;
+}
+
+.theme-doc-markdown h2 {
+  border-top: 1px solid var(--karma-border-soft);
+  font-size: 1.45rem;
+  margin-top: 2.75rem;
+  padding-top: 1.75rem;
+}
+
+.theme-doc-markdown h3 {
+  color: #f0e5cb;
+  font-size: 1.05rem;
+}
+
+.theme-doc-markdown p,
+.theme-doc-markdown li {
+  color: #d8cfbd;
+}
+
+.theme-doc-markdown strong {
+  color: #f3ead7;
+  font-weight: 650;
+}
+
+.theme-doc-markdown a {
+  text-decoration-color: #d8b95a66;
+  text-underline-offset: 0.18em;
+}
+
 .theme-doc-sidebar-container {
-  border-right: 1px solid var(--karma-border);
+  background: #0c0b08aa;
+}
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--karma-border-soft);
+}
+
+.menu {
+  padding-top: 1rem;
+}
+
+.menu__link {
+  border-radius: 7px;
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.menu__list-item-collapsible {
+  border-radius: 7px;
+}
+
+.menu__list-item-collapsible:hover {
+  background: transparent;
+}
+
+.menu__list-item-collapsible .menu__link {
+  color: #d9cfba;
+  font-weight: 620;
+}
+
+.menu__list-item-collapsible .menu__link--active {
+  background: transparent;
+  color: #f2e4bc;
+}
+
+.menu__list-item-collapsible .menu__link--active:hover {
+  background: #ffffff08;
+}
+
+.menu__list-item:not(:has(.menu__list-item-collapsible)) > .menu__link--active {
+  background: #d8b95a14;
+  box-shadow: inset 2px 0 0 var(--karma-gold);
+  color: #f4e8bf;
+}
+
+.table-of-contents__link {
+  color: var(--karma-muted);
+  font-size: 0.85rem;
+}
+
+.table-of-contents__link--active,
+.table-of-contents__link:hover {
+  color: var(--karma-gold);
+}
+
+.theme-doc-markdown table {
+  background: #14120e;
+  border: 1px solid var(--karma-border-soft);
+  border-radius: 8px;
+  display: table;
+  overflow: hidden;
+  width: 100%;
 }
 
 .theme-doc-markdown th {
   color: var(--karma-gold);
   font-size: 0.78rem;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.theme-doc-markdown th,
+.theme-doc-markdown td {
+  border-color: var(--karma-border-soft);
+}
+
+.theme-doc-markdown tr:nth-child(2n) {
+  background: #1a1712;
+}
+
+.theme-code-block,
+pre,
+code {
+  border-color: var(--karma-border-soft);
 }
 
 .pagination-nav__link {
-  background: linear-gradient(180deg, #1e1e1e, #111);
-  border: 1px solid var(--karma-border-gold);
-  border-radius: 10px;
+  background: linear-gradient(180deg, #191611, #11100c);
+  border: 1px solid var(--karma-border-soft);
+  border-radius: 8px;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--karma-border-gold);
+}
+
+.pagination-nav__label {
+  color: #f1e5c9;
+}
+
+.breadcrumbs__link {
+  color: var(--karma-muted);
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: #e6dcc8;
+}
+
+.alert {
+  background: #18150f;
+  border-color: var(--karma-border-soft);
+}
+
+@media (max-width: 996px) {
+  body {
+    background:
+      radial-gradient(circle at 20% -8%, #33280d45, transparent 24rem),
+      linear-gradient(180deg, #12100c 0%, var(--karma-bg) 18rem);
+  }
+
+  .theme-doc-markdown h1 {
+    font-size: 2.05rem;
+  }
 }

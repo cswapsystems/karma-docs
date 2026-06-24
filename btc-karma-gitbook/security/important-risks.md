@@ -7,7 +7,7 @@ BTC Karma involves crypto assets, wallet interactions, token rewards, and future
 
 ## Token Risk
 
-KARMA token value can rise or fall. Rewards should not be treated as guaranteed income.
+KARMA token value can rise or fall. Rewards should not be treated as fixed income or guaranteed returns.
 
 ## Protocol Risk
 
@@ -21,11 +21,11 @@ Never share seed phrases or private keys with anyone.
 
 ## Market Risk
 
-Bitcoin, ADA, KARMA, CSWAP, stablecoins, and other assets may experience volatility.
+Bitcoin, ADA, KARMA, stablecoins, and other related assets may experience volatility.
 
 ## DeFi and RWA Risk
 
-Future Phase 2 opportunities may involve DeFi, stablecoin, lending, borrowing, RWA liquidity, or yield products. These opportunities may involve additional risks depending on their structure.
+Future Phase 2 opportunities may involve DeFi, stablecoin, lending, borrowing, RWA products, or yield products. These opportunities may involve additional risks depending on their structure.
 
 ## No Guaranteed Yield
 

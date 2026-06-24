@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## What is BTC Karma?
 
-BTC Karma is a Bitcoin staking and rewards platform designed to bring Bitcoin holders into Cardano-powered DeFi without forcing them to bridge BTC or become Cardano-native users.
+BTC Karma is Bitcoin-native reward infrastructure for staking BTC, earning KARMA, and preparing for future Bitcoin yield opportunities.
 
 ## Do I need to bridge my Bitcoin?
 
@@ -15,21 +15,35 @@ The goal is to let Bitcoin holders participate without using traditional bridge 
 
 ## What is KARMA?
 
-KARMA is the native rewards and alignment token of BTC Karma.
+KARMA is the reward token used for BTC Karma incentives, Enlightenment Levels, and future access.
 
-It is used for staking incentives, Enlightenment Levels, leaderboard progression, and future platform access.
+It is used for staking incentives, Enlightenment Levels, leaderboard status, and future access.
 
-## Why not just reward users with CSWAP?
+KARMA is tied to Enlightenment Levels. Earning, buying, and holding KARMA may help users improve reward potential, harvest capacity, and future access.
 
-BTC Karma is designed for a Bitcoin-focused audience.
+## Why does BTC Karma use KARMA?
 
-Many Bitcoin holders may not initially care about CSWAP, Cardano, or DeFi. KARMA gives BTC Karma its own incentive model, reward system, and progression layer while still supporting the broader CSWAP ecosystem.
+BTC Karma is designed for Bitcoin holders.
+
+KARMA gives BTC Karma its own reward and level system. Users can earn and hold KARMA to increase their Enlightenment Level, which may improve reward potential and future access.
+
+Users can also buy KARMA directly through the BTC Karma staking platform as an optional way to raise their Enlightenment Level faster.
 
 ## What are Enlightenment Levels?
 
-Enlightenment Levels are BTC Karma's user progression system.
+Enlightenment Levels are BTC Karma's level and access system.
 
-Higher levels are designed to reward stronger alignment and may unlock improved rewards, leaderboard status, and future access to exclusive opportunities.
+Higher levels are designed to increase Phase 1 reward potential, increase harvest capacity during active reward periods, and improve priority access to future limited-capacity Bitcoin yield opportunities.
+
+Users can raise their Enlightenment Level by earning, buying, and holding KARMA. This can happen through Bitcoin staking rewards or by buying KARMA directly through the BTC Karma staking platform.
+
+On the Rewards page, users can click **Raise Level of Enlightenment** to see how much KARMA is needed to reach each higher level.
+
+## Do Enlightenment Levels affect harvesting?
+
+Yes. Enlightenment Levels may affect how much a user can harvest from available rewards.
+
+Higher levels are designed to increase reward potential and may increase harvest capacity during active reward periods. Actual harvest amounts depend on staking activity, active emissions, protocol rules, reward availability, and the user's Enlightenment Level.
 
 ## How many Enlightenment Levels are there?
 
@@ -45,35 +59,33 @@ BTC Karma has 5 Enlightenment Levels:
 
 No.
 
-KARMA rewards depend on the platform's emissions model, staking activity, active reward periods, Bitcoin TVL, and other protocol conditions. Token values can change, and users should not treat rewards as guaranteed income.
+KARMA rewards depend on the protocol's emissions model, staking activity, active reward periods, Bitcoin TVL, and other protocol conditions. Token values can change, and users should not treat rewards as fixed income or guaranteed returns.
 
 ## How long do emissions last?
 
-The current design uses a halving-style emissions model with halvings approximately every quarter and a base emissions period of roughly 18 months. Locking mechanisms, community fees, and active emissions rollover will most likely make the active emissions period much longer.
+The current design uses a halving-style emissions model with halvings approximately every quarter and a base emissions period of roughly 18 months. Locking mechanisms, protocol fees, and active emissions rollover may extend the active emissions period.
 
 ## What happens in Phase 2?
 
-Phase 2 is designed to expand BTC Karma beyond staking.
+Phase 2 is designed to expand BTC Karma beyond token rewards and into Bitcoin-powered yield access.
 
-The goal is to let Bitcoin holders access Cardano-powered DeFi, stablecoin liquidity, and real-world asset yield opportunities through a simple Bitcoin-native experience.
+Future opportunities may include Bitcoin-backed borrowing, stablecoin deployment, curated yield strategies, and real-world asset yield opportunities through a simple Bitcoin-native experience.
 
-## How does BTC Karma benefit CSWAP?
+Some opportunities may have limited capacity. If demand exceeds available allocation, higher Enlightenment Levels may receive priority access.
 
-BTC Karma is intended to bring Bitcoin users and Bitcoin capital into the broader CSWAP ecosystem.
+## How does BTC Karma use Cardano?
 
-As BTC Karma grows, it can support CSWAP DEX liquidity, Cardano stablecoin activity, RWA marketplace usage, and future ecosystem revenue opportunities.
+BTC Karma uses Cardano infrastructure for reward accounting, token distribution, and future yield access.
+
+Cardano is infrastructure, not the product experience. BTC Karma is designed so Bitcoin holders can focus on staking BTC, earning KARMA, raising Enlightenment Level, and preparing for future Bitcoin opportunities.
 
 ## Do users need to understand Cardano?
 
-The long-term goal is no.
-
-BTC Karma uses Cardano infrastructure underneath, but the product is designed to make the experience simple for Bitcoin holders.
+No. BTC Karma uses Cardano infrastructure, but the product is designed to make the experience simple for Bitcoin holders.
 
 ## Is BTC Karma only for Cardano users?
 
-No.
-
-Initial launch and bootstrapping may involve the Cardano community, but BTC Karma is ultimately designed for Bitcoin holders.
+No. BTC Karma is designed for Bitcoin holders, miners, custodians, exchanges, treasury allocators, family offices, and high-net-worth Bitcoin holders.
 
 ## Will BTC Karma ask for my seed phrase?
 
